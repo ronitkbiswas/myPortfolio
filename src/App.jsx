@@ -12,6 +12,7 @@ function App() {
       <div className="photo">
         <Photo />
       </div>
+      <br></br>
       <div className="bio">
         <Bio />
       </div>
