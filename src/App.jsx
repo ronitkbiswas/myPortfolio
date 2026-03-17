@@ -1,3 +1,5 @@
+import "/src/App.css";
+
 function Photo() {
   return (
     <>
