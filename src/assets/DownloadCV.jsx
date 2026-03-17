@@ -1,7 +1,12 @@
+import "/src/App.css";
 function DownloadCV() {
   return (
     <>
-      <button type="button" onClick={console.log("ok")}>
+      <button
+        className="downloadCVButton"
+        type="button"
+        onClick={console.log("cv download button pressed")}
+      >
         Download my Resume
       </button>
     </>

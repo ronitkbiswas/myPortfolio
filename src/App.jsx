@@ -9,9 +9,15 @@ function App() {
       className="main"
       style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}
     >
-      <Photo />
-      <Bio />
-      <DownloadCV />
+      <div className="photo">
+        <Photo />
+      </div>
+      <div className="bio">
+        <Bio />
+      </div>
+      <div className="downloadCV">
+        <DownloadCV />
+      </div>
     </div>
   );
 }

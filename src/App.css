@@ -1,3 +1,15 @@
 .main {
   color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+.photo {
+  border-radius: 180px;
+}
+.downloadCVButton {
+  margin-top: 40px;
+  padding: 5px 50px;
+  color: white;
+  background-color: black;
+  box-shadow: inset;
+  border-radius: 100px;
 }

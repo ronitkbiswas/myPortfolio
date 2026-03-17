@@ -4,7 +4,8 @@ function Photo() {
       <img
         src="./public/myPhotos/myDP.jpg"
         alt="my profile pic"
-        width="150px"
+        width="200px"
+        style={{ borderRadius: "100px" }}
       />
     </>
   );
