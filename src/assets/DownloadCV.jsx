@@ -2,12 +2,7 @@ import "/src/App.css";
 function DownloadCV() {
   return (
     <>
-      <button
-        className="downloadCVButton"
-        type="button"
-        onClick={console.log("cv download button pressed")}
-        disabled
-      >
+      <button className="downloadCVButton" type="button">
         Download my Resume (not available yet)
       </button>
     </>
