@@ -12,10 +12,11 @@ function Bio() {
           Engineer (B.Tech, 2017 passout.) 🎓 <br></br>Have Founded a Restaurant
           (JB's Flame) which are doing pretty good (meaning profitable!) 🔥
           <br></br> Currently {currentYear - birthYear} years old as of{" "}
-          {currentYear}👨
+          {currentYear} 👨
           <br></br>
           <br></br>
           <span>I've made this entire web app in react JS! 😎🍾</span>
+          <span style={{ fontSize: "22px" }}>ENJOY ! 🧑‍💻</span>
         </span>
       </div>
     </>

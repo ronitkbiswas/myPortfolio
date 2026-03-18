@@ -6,8 +6,9 @@ function DownloadCV() {
         className="downloadCVButton"
         type="button"
         onClick={console.log("cv download button pressed")}
+        disabled
       >
-        Download my Resume
+        Download my Resume (not available yet)
       </button>
     </>
   );
