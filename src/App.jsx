@@ -40,6 +40,8 @@ function App() {
         <div className="downloadCV">
           <DownloadCV />
         </div>
+        <br></br>
+        <br></br>
       </div>
     </div>
   );
