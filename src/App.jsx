@@ -4,6 +4,11 @@ import Bio from "./assets/MyData";
 import DownloadCV from "./assets/DownloadCV";
 import SocialLinks from "./assets/SocialLinks";
 
+function DisplayTime() {
+  const time = new Date().getHours();
+  alert(time);
+}
+
 function App() {
   return (
     <div className="body">

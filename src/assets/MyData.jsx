@@ -7,10 +7,10 @@ function Bio() {
       <div style={{ backgroundColor: "black", padding: "10px" }}>
         <span style={{ fontFamily: "monospace" }}>
           <span style={{ fontSize: "20px" }}>Hello 👋</span>
-          <br></br> I'm Ronit Kumar Biswas 🧑‍💻 gearing up to become a ReactJS Dev
-          soon 😎💻<br></br> From Kolkata 🏠 Applied Electronis & Intrumentation
-          Engineer (B.Tech, 2017 passout.) 🎓 <br></br>Have Founded a Restaurant
-          (JB's Flame) which are doing pretty good (meaning profitable!) 🔥
+          <br></br> I'm Ronit Kumar Biswas 🧑‍💻💻<br></br> From Kolkata 🏠 Applied
+          Electronis & Intrumentation Engineer (B.Tech, 2017 passout.) 🎓{" "}
+          <br></br>Have Founded a Restaurant (JB's Flame) which are doing pretty
+          good (meaning profitable!) 🔥
           <br></br> Currently {currentYear - birthYear} years old as of{" "}
           {currentYear} 👨
           <br></br>
