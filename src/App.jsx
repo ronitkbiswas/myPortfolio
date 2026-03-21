@@ -4,12 +4,11 @@ import Bio from "./assets/MyData";
 import DownloadCV from "./assets/DownloadCV";
 import SocialLinks from "./assets/SocialLinks";
 
-/**git config --global --list
+/**
  * 
- * this need to be deleted
+ * this need to be deleted.....
  */
-git config --global user.name "Ronit"
-git config --global user.email "your-email@example.com"
+
 function DisplayTime() {
   const hours = new Date().getHours();
   const mins = new Date().getMinutes();
