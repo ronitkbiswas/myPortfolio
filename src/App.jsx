@@ -1,21 +1,8 @@
 import "/src/App.css";
 import Photo from "./assets/MyPhoto";
-import Bio from "./assets/MyData";
 import DownloadCV from "./assets/DownloadCV";
 import SocialLinks from "./assets/SocialLinks";
 
-function DisplayTime() {
-  const hours = new Date().getHours();
-  const mins = new Date().getMinutes();
-  const secs = new Date().getSeconds();
-  return (
-    <>
-      <h3>
-        {hours}:{mins}:{secs}
-      </h3>
-    </>
-  );
-}
 
 function App() {
   return (
@@ -25,24 +12,19 @@ function App() {
         style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}
       >
         <div className="photo">
-          <DisplayTime />
           <Photo />
-          <br></br>
         </div>
+        <span style={{fontSize: "24px"
+        }}>Ronit Kumar Biswas 🧑‍💻 ✨</span>
         <br></br>
+        <span>Passionate Coder, Engineer & Restaurant Owner (JB's Flame)🔥</span>
+        <br></br><br></br>
         <div className="sociallinks">
           <SocialLinks />
         </div>
          <div className="downloadCV">
           <DownloadCV />
         </div>
-        <br></br>
-        <div className="bio">
-          
-          <Bio />
-        </div>
-        <br></br>
-        <br></br>
       </div>
     </div>
   );
