@@ -42,6 +42,7 @@ function App() {
           <SocialLinks />
         </div>
          <div className="downloadCV">
+          <hr></hr>
           <DownloadCV />
         </div>
         
