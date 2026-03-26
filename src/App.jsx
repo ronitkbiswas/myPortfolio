@@ -4,12 +4,6 @@ import Bio from "./assets/MyData";
 import DownloadCV from "./assets/DownloadCV";
 import SocialLinks from "./assets/SocialLinks";
 
-/**
- * 
- * this need to be deleted.....
- * this too...
- */
-
 function DisplayTime() {
   const hours = new Date().getHours();
   const mins = new Date().getMinutes();
@@ -39,12 +33,12 @@ function App() {
         <div className="sociallinks">
           <SocialLinks />
         </div>
+         <div className="downloadCV">
+          <DownloadCV />
+        </div>
         <br></br>
         <div className="bio">
           <Bio />
-        </div>
-        <div className="downloadCV">
-          <DownloadCV />
         </div>
         <br></br>
         <br></br>
