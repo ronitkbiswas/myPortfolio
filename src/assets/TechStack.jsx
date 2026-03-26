@@ -1,7 +1,9 @@
 function TechStack() {
     return (
         <>
-    <h2>⚙ Current Tech Stack:</h2>
+        <br></br>
+    <span style={{fontSize:"25px",fontWeight:"bold"}}>⚙ Current Tech Stack:</span>
+    <br></br>
     <span>
         Core Stack & Expertise:<br></br><br></br>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -21,13 +23,3 @@ function TechStack() {
     );
 }
 export default TechStack;
-/**
- * ⚙ Current Tech Stack:
-Core Stacks
-
-
-Web Dev Stacks
-          
-Others
-    
- */
