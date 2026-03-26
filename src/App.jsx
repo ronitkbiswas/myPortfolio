@@ -4,6 +4,7 @@ import DownloadCV from "./assets/DownloadCV";
 import SocialLinks from "./assets/SocialLinks";
 import AboutMe from "./AboutMe";
 import TechStack from "./assets/TechStack";
+import Workstation from "./assets/Workstation";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
         </div>
         <div>
           <TechStack />
+        </div>
+        <div>
+<Workstation />
+
         </div>
          <div className="sociallinks">
           <SocialLinks />
