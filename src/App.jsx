@@ -38,6 +38,7 @@ function App() {
         </div>
         <br></br>
         <div className="bio">
+          
           <Bio />
         </div>
         <br></br>
