@@ -3,6 +3,7 @@ import Photo from "./assets/MyPhoto";
 import DownloadCV from "./assets/DownloadCV";
 import SocialLinks from "./assets/SocialLinks";
 import AboutMe from "./AboutMe";
+import TechStack from "./assets/TechStack";
 
 function App() {
   return (
@@ -18,13 +19,17 @@ function App() {
         <span style={{fontSize: "24px", fontWeight: "bold"
         }}>Ronit Kumar Biswas 🧑‍💻 ✨</span>
         <br></br>
-        <span>Passionate Coder, Engineer & Restaurant Owner (JB's Flame)🔥</span>
-        <br></br><br></br>
-        <div className="sociallinks">
-          <SocialLinks />
-        </div>
+        <span style={{fontWeight: "bold"}}>Passionate Coder, Engineer <br></br>& Restaurant Owner (JB's Flame)🔥</span>
+        <br></br>
+       
         <div>
           <AboutMe />
+        </div>
+        <div>
+          <TechStack />
+        </div>
+         <div className="sociallinks">
+          <SocialLinks />
         </div>
          <div className="downloadCV">
           <DownloadCV />
