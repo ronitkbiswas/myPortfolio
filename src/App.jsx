@@ -24,23 +24,29 @@ function App() {
         <br></br>
        
         <div>
+          <hr></hr>
           <AboutMe />
         </div>
         <div>
+          <hr></hr>
           <TechStack />
         </div>
         <div>
+          <hr></hr>
 <Workstation />
 
         </div>
+        
          <div className="sociallinks">
+          <hr></hr>
           <SocialLinks />
         </div>
          <div className="downloadCV">
           <DownloadCV />
-          
         </div>
+        
       </div>
+      
     </div>
   );
 }

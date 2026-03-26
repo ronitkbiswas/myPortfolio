@@ -5,6 +5,8 @@ function SocialLinks() {
   return (
     <>
       <div>
+        <span style={{fontSize:"25px",fontWeight:"bold"}}>🌐 Socials:</span>
+        <br></br><br></br>
         <a href={linkedin} target="_blank">
           <img
             src="/myPhotos/linkedin.png"
