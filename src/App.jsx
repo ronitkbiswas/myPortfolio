@@ -40,6 +40,7 @@ function App() {
          <div className="sociallinks">
           <hr></hr>
           <SocialLinks />
+          
         </div>
          <div className="downloadCV">
           <hr></hr>
