@@ -1,0 +1,19 @@
+/* .body {
+  /* background-color: al;
+} */
+/* .main {
+  color: #26de0e;
+  font-family: "Courier New", Courier, monospace;
+}
+.photo {
+  border-radius: 180px;
+}
+  */
+.downloadCVButton {
+  margin-top: 40px;
+  padding: 5px 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset;
+  border-radius: 4px;
+}

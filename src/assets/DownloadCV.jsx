@@ -2,7 +2,7 @@ import "/src/App.css";
 import { ToastContainer, toast } from "react-toastify";
 
 function DownloadCV() {
-  const notify = () => toast(<b>Working hard to make cv available</b>);
+  const notify = () => toast(<b>Downloading...</b>);
  /**
   * need to add a cv download button as cv is ready for download
   * need to remove the toast
@@ -17,7 +17,7 @@ function DownloadCV() {
       </a> */}
       <br></br>
 <a
-style={{fontSize:"15px",textDecoration: "none"}}
+style={{fontSize:"16px",textDecoration: "none"}}
   href="/cv/ronitkbiswas_2026.pdf"
   download
   className="downloadCVButton"

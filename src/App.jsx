@@ -6,9 +6,6 @@ import AboutMe from "./AboutMe";
 import TechStack from "./assets/TechStack";
 import Workstation from "./assets/Workstation";
 
-
-
-
 function App() {
   return (
     <div className="body">
@@ -19,32 +16,32 @@ function App() {
         <div className="photo">
           <Photo />
         </div>
-        
-        <span style={{fontSize: "24px", fontWeight: "bold"
-        }}>Ronit Kumar Biswas 🧑‍💻 ✨</span>
         <br></br>
-        <span style={{fontWeight: "bold"}}>Passionate Coder, Engineer <br></br>& Restaurant Owner (JB's Flame)🔥</span>
+        <span style={{fontSize: "27px", fontWeight: "bold"
+        }}>Ronit Kumar Biswas ✨</span>
+        <br></br>
+        <span style={{fontWeight: "bold", fontSize: "16px"}}>Frontend Developer (React JS)<br></br></span>
         <br></br>
        
-        <div>
+        {/* <div>
           <hr></hr>
           <AboutMe />
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <hr></hr>
           <TechStack />
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <hr></hr>
 <Workstation />
 
-        </div>
+        </div> */}
         
-         <div className="sociallinks">
+         {/* <div className="sociallinks">
           <hr></hr>
           <SocialLinks />
           
-        </div>
+        </div> */}
          <div className="downloadCV">
           <hr></hr>
           <DownloadCV />
