@@ -5,13 +5,13 @@ import SocialLinks from "./assets/SocialLinks";
 import AboutMe from "./AboutMe";
 import TechStack from "./assets/TechStack";
 import Workstation from "./assets/Workstation";
-import { NavBar } from "./assets/NavBar";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="body">
-      <NavBar />
-      <div
+      <Navbar /><br></br><br></br>
+<br></br> <br></br>     <div
         className="main"
         style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}
       >
