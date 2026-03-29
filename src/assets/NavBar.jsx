@@ -8,10 +8,19 @@ export const NavBar = () => {
                     <a href="#">Home</a>
                 </li>
                 <li className="nav-items">
-                    <a href="#">Contact</a>
+                    <a href="#">About Me</a>
                 </li>
                 <li className="nav-items">
-                    <a href="#">Pricing</a>
+                    <a href="#">My Projects</a>
+                </li>
+                <li className="nav-items">
+                    <a href="#">Contact Me</a>
+                </li>
+               <li className="nav-items">
+                    <a href="#">Contact Me</a>
+                </li>
+                <li className="nav-items">
+                    <a href="#">Contact Me</a>
                 </li>
             </ul>
         </nav>
