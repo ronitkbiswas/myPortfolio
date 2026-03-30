@@ -47,11 +47,11 @@ function App() {
          <div className="sociallinks">
           <hr></hr>
           <SocialLinks />
-          <br></br><br></br>
+          <br></br>
+          <hr></hr>
+          <br></br>
         </div>
-       
       </div>
-      
     </div>
   );
 }
