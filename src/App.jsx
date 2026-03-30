@@ -25,25 +25,25 @@ function App() {
         <span style={{fontWeight: "bold", fontSize: "16px"}}>Frontend Developer (React JS)<br></br></span>
         <br></br>
        
-        {/* <div>
+        <div>
           <hr></hr>
           <AboutMe />
-        </div> */}
-        {/* <div>
+        </div> 
+        <div>
           <hr></hr>
           <TechStack />
-        </div> */}
-        {/* <div>
+        </div>
+        <div>
           <hr></hr>
 <Workstation />
 
-        </div> */}
+        </div>
         
-         {/* <div className="sociallinks">
+         <div className="sociallinks">
           <hr></hr>
           <SocialLinks />
           
-        </div> */}
+        </div>
          <div className="downloadCV">
           <hr></hr>
           <DownloadCV />
