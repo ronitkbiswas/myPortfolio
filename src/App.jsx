@@ -10,8 +10,11 @@ import Navbar from "./Navbar";
 function App() {
   return (
     <div className="body">
-      <Navbar /><br></br><br></br>
-<br></br> <br></br>     <div
+      <Navbar />
+      <br></br>
+      <br></br>
+      <br></br>
+      <div
         className="main"
         style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}
       >
@@ -19,14 +22,16 @@ function App() {
           <Photo />
         </div>
         <br></br>
-        <span style={{fontSize: "27px", fontWeight: "bold"
-        }}>Ronit Kumar Biswas ✨</span>
+<span style={{fontSize: "27px", fontWeight: "bold"}}>Ronit Kumar Biswas ✨</span>
         <br></br>
         <span style={{fontWeight: "bold", fontSize: "16px"}}>Frontend Developer (React JS)<br></br></span>
-        <br></br>
+        
+        
+       <DownloadCV />
+       
        
         <div>
-          <hr></hr>
+           
           <AboutMe />
         </div> 
         <div>
@@ -36,9 +41,7 @@ function App() {
         <div>
           <hr></hr>
 <Workstation />
-
         </div>
-        
          <div className="sociallinks">
           <hr></hr>
           <SocialLinks />

@@ -12,7 +12,7 @@ function DownloadCV() {
       </a> */}
       <br></br>
 <a
-style={{fontSize:"16px",textDecoration: "none"}}
+style={{fontSize:"16px",textDecoration: ""}}
   href="/cv/ronitkbiswas_2026.pdf"
   download
   className="downloadCVButton"
