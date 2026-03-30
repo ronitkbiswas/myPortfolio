@@ -7,7 +7,7 @@ function TechStack() {
     <span>
         Core Stack & Expertise:<br></br><br></br>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-        width="60px" />
+        width="80px" />
     </span><br></br>
     <span><br></br>
         <span>Web Dev Stacks: </span><br></br><br></br>

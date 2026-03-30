@@ -14,11 +14,11 @@ function SocialLinks() {
             width="30px"
           />
         </a>
-        {" | "}
+        <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={github} target="_blank">
           <img src="/myPhotos/github.png" alt="github link logo" width="30px" />
         </a>
-        {" | "}
+        <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={fb} target="_blank">
           <img src="/myPhotos/facebook.png" alt="fb link logo" width="30px" />
         </a>
