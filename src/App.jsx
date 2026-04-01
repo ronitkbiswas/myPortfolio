@@ -41,11 +41,13 @@ function App() {
           <br></br><br></br>
         </div>
         <div>
+          <hr></hr>
+          <br></br>
+           <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects:</span>
+           <br></br><br></br>
           <div style={{backgroundColor: "grey"}}>
-            <hr></hr><br></br>
-            <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects:</span>
-          <br></br><br></br>
-        
+            <br></br>
+            
           <span style={{fontSize: "22px", fontWeight: "bold"}}>WeatherApp ☁️</span>
           <br></br>
           <span style={{fontFamily: "monospace" }}>An API based weather app that sets the vive
@@ -64,6 +66,7 @@ function App() {
           <br></br>
           <br></br>
           </div>
+          <br></br>
           <hr></hr>
 <Workstation />
         </div> 
