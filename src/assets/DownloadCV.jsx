@@ -2,7 +2,7 @@ import "/src/App.css";
 import { ToastContainer, toast } from "react-toastify";
 
 function DownloadCV() {
-  const notify = () => toast(<b>Downloading...</b>);
+  const notify = () => toast(<b>Downloading now...</b>);
   return (
     <>
     {/* <a herf="./cv/ronitkbiswas_2026.pdf">
