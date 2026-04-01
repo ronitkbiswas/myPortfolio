@@ -57,9 +57,9 @@ function App() {
           
           <br></br>
           <img
-            src="/myPhotos/weatherApp.png"
+            src="/myPhotos/weatherApp.jpeg"
             alt="weatherapp project logo"
-            width="400px"
+            width="200px"
           />
           <br></br>
            <br></br>
