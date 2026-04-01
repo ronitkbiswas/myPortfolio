@@ -41,6 +41,10 @@ function App() {
           <br></br><br></br>
         </div>
         <div>
+          <div>
+            <hr></hr>
+            <span>💻 My Projects</span>
+          </div>
           <hr></hr>
 <Workstation />
         </div> 
