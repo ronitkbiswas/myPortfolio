@@ -4,7 +4,7 @@ function Workstation() {
         <br></br>
         <span style={{fontSize:"25px",fontWeight: "bold"}}>💻 My Workstation:</span>
         <br></br><br></br>
-<div style={{display: "flex", alignContent:"center"}}>      
+<div>      
 <img src="https://camo.githubusercontent.com/f66dc1167d3343d4e91bf62c44c77f37f27ebb952199e3865f5d0d26a5a4698b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5562756e74752d696e666f726d6174696f6e616c3f7374796c653d666c6174266c6f676f3d7562756e7475266c6f676f436f6c6f723d776869746526636f6c6f723d453935343230"
 width="90px" />
  <br></br>
