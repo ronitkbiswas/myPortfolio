@@ -68,14 +68,21 @@ function App() {
 <Workstation />
         </div> 
          <div className="sociallinks">
-          <hr></hr>
+          <hr></hr><br></br>
           <SocialLinks />
           <br></br>
-          <hr></hr>
+        
           <br></br>
         </div>
       </div>
+     <footer style={{textAlign:"center"}}>
+    
+      <span>© {new Date().getFullYear()} All rights reserved</span>
+      <br></br>
+      <span style={{fontSize:"13px"}}>Written in JavaScript | Made by Ronit 🔒</span>
+      </footer><br></br>
     </div>
+    
   );
 }
 export default App;
