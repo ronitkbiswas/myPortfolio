@@ -52,11 +52,13 @@ function App() {
           <br></br>
           
           <br></br>
+     <a target="_blank" href="https://ronitkbiswas.github.io/weatherApp/">   
           <img
             src="/myPhotos/weatherApp.jpeg"
             alt="weatherapp project logo"
             width="200px"
           />
+          </a>  
           <br></br>
            <br></br>
           <a style={{fontSize:"18px", textDecoration:"none", color:"lightgreen",fontWeight:"bold"}}

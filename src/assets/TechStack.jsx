@@ -2,16 +2,17 @@ function TechStack() {
     return (
         <>
         <br></br>
-    <span style={{fontSize:"25px",fontWeight:"bold"}}>⚙ Current Tech Stack:</span>
+    <h2>⚙ Current Tech Stack:</h2>
     <br></br>
     <span>
-        Core Stack & Expertise:<br></br><br></br>
+        🟢 Core Stack & Expertise:<br></br><br></br>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
         width="70px" />
     </span><br></br>
     <span><br></br>
         <span>Web Dev Stacks: </span><br></br>
-        <div style={{}}>
+        <br></br>
+        <div>
     <img src="https://camo.githubusercontent.com/d99ff6f3eecc24f0e45bd84482023bfcbf2c139aaeb6d2670fe1cc3ed7ccf028/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2d776f72646d61726b2e737667"
         width="45px" />
     <img src="https://camo.githubusercontent.com/5b50ed609a11f124194a5d6f4d808f472126dc73595929be599fd4d52b63ede3/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d6f726967696e616c2d776f72646d61726b2e737667"
