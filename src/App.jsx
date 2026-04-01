@@ -42,8 +42,23 @@ function App() {
         </div>
         <div>
           <div>
-            <hr></hr>
-            <span>💻 My Projects</span>
+            <hr></hr><br></br>
+            <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects:</span>
+          <br></br><br></br>
+          <span style={{fontSize: "20px"}}>WeatherApp</span>
+          <br></br>
+          <span>A weather app that sets the vive according to the real time weather around you!</span>
+          <br></br>
+          
+          <br></br>
+          <img
+            src="/myPhotos/weatherApp.png"
+            alt="weatherapp project logo"
+            width="400px"
+          />
+          <br></br>
+          <a href="#">try it out</a>
+          <br></br>
           </div>
           <hr></hr>
 <Workstation />
