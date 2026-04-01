@@ -41,10 +41,11 @@ function App() {
           <br></br><br></br>
         </div>
         <div>
-          <div>
+          <div style={{backgroundColor: "grey"}}>
             <hr></hr><br></br>
             <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects:</span>
           <br></br><br></br>
+          
           <span style={{fontSize: "22px"}}>WeatherApp ☁️</span>
           <br></br>
           <span style={{fontFamily: "monospace" }}>An API based weather app that sets the vive according to the real time weather around you!</span>
@@ -57,9 +58,9 @@ function App() {
             width="400px"
           />
           <br></br>
-           
-          <a style={{fontSize:"17px", textDecoration:"none", color:"lightgreen"}} href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">View Live...</a>
-          
+           <br></br>
+          <a style={{fontSize:"17px", textDecoration:"none", color:"lightgreen"}} href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">View it Live...</a>
+          <br></br>
           <br></br>
           </div>
           <hr></hr>
