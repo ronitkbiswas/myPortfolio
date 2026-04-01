@@ -45,7 +45,7 @@ function App() {
             <hr></hr><br></br>
             <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects:</span>
           <br></br><br></br>
-          
+          /
           <span style={{fontSize: "22px"}}>WeatherApp ☁️</span>
           <br></br>
           <span style={{fontFamily: "monospace" }}>An API based weather app that sets the vive according to the real time weather around you!</span>
