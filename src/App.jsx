@@ -60,7 +60,7 @@ function App() {
           />
           <br></br>
            <br></br>
-          <a style={{fontSize:"17px", textDecoration:"none", color:"lightgreen"}} href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">View it Live...</a>
+          <a style={{fontSize:"18px", textDecoration:"none", color:"lightgreen",fontWeight:"bold"}} href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">View it Live...</a>
           <br></br>
           <br></br>
           </div>
