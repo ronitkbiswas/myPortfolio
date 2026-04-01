@@ -16,7 +16,7 @@ function SocialLinks() {
         </a>
         <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={github} target="_blank">
-          <img src="/myPhotos/github.png" alt="github link logo" width="30px" />
+          <img src="/myPhotos/github.jpg" alt="github link logo" width="61px" />
         </a>
         <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={fb} target="_blank">
