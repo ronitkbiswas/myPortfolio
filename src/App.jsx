@@ -80,9 +80,9 @@ function App() {
       </div>
      <footer style={{textAlign:"center"}}>
     
-      <span>© {new Date().getFullYear()} All rights reserved.</span>
+      <span>© {new Date().getFullYear()} All rights reserved. 🔒</span>
       <br></br>
-      <span style={{fontSize:"13px"}}>Written in JavaScript | Made by Ronit 🔒</span>
+      <span style={{fontSize:"13px"}}>Written in React JS | Made by Ronit Kumar Biswas ✨</span>
       </footer><br></br>
     </div>
     
