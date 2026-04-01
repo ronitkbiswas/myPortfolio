@@ -10,7 +10,7 @@ function DownloadCV() {
         Download my latest CV ({new Date().getFullYear()})
       </button>
       </a> */}
-      <br></br>
+      <br></br><br></br>
 <a
 style={{fontSize:"16px",textDecoration: ""}}
   href="/cv/ronitkbiswas_2026.pdf"
@@ -19,7 +19,7 @@ style={{fontSize:"16px",textDecoration: ""}}
   onClick={notify}
 >
   Download my latest CV ({new Date().getFullYear()})
-</a>
+</a><br></br>
       <br></br><br></br><hr></hr><br></br>
       
       <ToastContainer />
