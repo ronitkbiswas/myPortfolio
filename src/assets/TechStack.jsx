@@ -10,7 +10,7 @@ function TechStack() {
         width="70px" />
     </span><br></br>
     <span><br></br>
-        <span>Web Dev Stacks: </span><br></br>
+        <span>💻 Web Dev Stacks: </span><br></br>
         <br></br>
         <div>
     <img src="https://camo.githubusercontent.com/d99ff6f3eecc24f0e45bd84482023bfcbf2c139aaeb6d2670fe1cc3ed7ccf028/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2d776f72646d61726b2e737667"
