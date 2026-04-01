@@ -18,12 +18,10 @@ function App() {
           <Photo />
         </div>
         <br></br>
-<span style={{fontSize: "27px", fontWeight: "bold"}}>Ronit Kumar Biswas ✨</span>
+<span style={{fontSize: "27px", fontWeight: "normal"}}>Hi! I'm <span style={{fontWeight: "bold"}}>Ronit Kumar Biswas 👋🏻</span></span>
         <br></br>
-        <span style={{fontWeight: "bold", fontSize: "16px"}}>Frontend 
-          Developer (React JS)<br></br></span>
-        
-        
+        <span style={{fontWeight: "normal", fontSize: "17px"}}>Frontend 
+          Developer (React JS) from Kolkata, India 🇮🇳<br></br></span>
        <DownloadCV />
        
      
@@ -42,7 +40,7 @@ function App() {
           <br></br>
            <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects:</span>
            <br></br><br></br>
-          <div style={{backgroundColor: "grey"}}>
+          <div style={{backgroundColor: ""}}>
             <br></br>
             
           <span style={{fontSize: "22px", fontWeight: "bold"}}>WeatherApp ☁️</span>
