@@ -49,7 +49,7 @@ function App() {
         <div>
           <hr></hr>
           <br></br>
-           <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects:</span>
+           <span style={{fontSize:"25px",fontWeight:"bold"}}>✨ My Projects</span>
            <br></br><br></br>
           <div style={{backgroundColor: ""}}>
             <br></br>
@@ -63,7 +63,7 @@ function App() {
           <br></br>
      <a target="_blank" href="https://ronitkbiswas.github.io/weatherApp/">   
           <img
-            src="/myPhotos/weatherApp.jpeg"
+            src="src/assets/images/weatherApp.jpeg"
             alt="weatherapp project logo"
             width="200px"
           />

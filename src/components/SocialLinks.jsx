@@ -5,22 +5,22 @@ function SocialLinks() {
   return (
     <>
       <div>
-        <span style={{fontSize:"25px",fontWeight:"bold"}}>🌐 Socials:</span>
+        <span style={{fontSize:"25px",fontWeight:"bold"}}>🌐 Socials</span>
         <br></br><br></br>
         <a href={linkedin} target="_blank">
           <img
-            src="/myPhotos/linkedin.png"
+            src="src/assets/images/linkedin.png"
             alt="linkedin link logo"
             width="30px"
           />
         </a>
         <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={github} target="_blank">
-          <img src="/myPhotos/github.jpg" alt="github link logo" width="61px" />
+          <img src="src/assets/images/github.jpg" alt="github link logo" width="61px" />
         </a>
         <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={fb} target="_blank">
-          <img src="/myPhotos/facebook.png" alt="fb link logo" width="30px" />
+          <img src="src/assets/images/facebook.png" alt="fb link logo" width="30px" />
         </a>
       </div>
     </>

@@ -2,7 +2,7 @@ function TechStack() {
     return (
         <>
         <br></br>
-    <h2>⚙ Current Tech Stack:</h2>
+    <h2>⚙ Current Tech Stack</h2>
     <br></br>
     <span>
         🟢 Core Stack & Expertise:<br></br><br></br>
