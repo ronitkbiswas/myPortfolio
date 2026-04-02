@@ -1,21 +1,10 @@
-// import "/src/App.css";
-// import Photo from "./assets/components/MyPhoto";
-// import DownloadCV from "./assets/DownloadCV";
-// import SocialLinks from "./assets/SocialLinks";
-// import AboutMe from "./AboutMe";
-// import TechStack from "./assets/TechStack";
-// import Workstation from "./assets/Workstation";
 import Photo from "./components/MyPhoto";
 import DownloadCV from "./components/DownloadCV";
 import SocialLinks from "./components/SocialLinks";
 import TechStack from "./components/TechStack";
-// import Workstation from "./components/Workstation";
 import Workstation from "./sections/Workstation";
 import AboutMe from "./sections/About";
-/**
- * 
- * hmmmmmmmmmm
- */
+
 
 function App() {
   return (
