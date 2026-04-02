@@ -5,11 +5,6 @@ function DownloadCV() {
   const notify = () => toast(<b>Downloading now...</b>);
   return (
     <>
-    {/* <a herf="./cv/ronitkbiswas_2026.pdf">
-      <button className="downloadCVButton" type="button" onClick={notify}>
-        Download my latest CV ({new Date().getFullYear()})
-      </button>
-      </a> */}
       <br></br><br></br>
 <a
 style={{fontSize:"16px",textDecoration: "none"}}
