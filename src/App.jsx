@@ -5,11 +5,6 @@ import TechStack from "./components/TechStack";
 import Workstation from "./sections/Workstation";
 import AboutMe from "./sections/About";
 
-/**
- * 
- * @returns last push before hangover
- */
-
 function App() {
   return (
     <div className="body">
