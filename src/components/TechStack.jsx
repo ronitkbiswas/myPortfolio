@@ -1,3 +1,5 @@
+import tech from "../assets/images/techstack.png";
+
 function TechStack() {
     return (
         <>
@@ -30,7 +32,7 @@ function TechStack() {
         </div>    */}
         
     </span> 
-    <img src="src/assets/images/techstack.png" width="400px"></img>
+    <img src={tech} width="400px"></img>
         </>
     );
 }
