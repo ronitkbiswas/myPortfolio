@@ -32,7 +32,7 @@ function TechStack() {
         </div>    */}
         
     </span> 
-    <img src={tech} width="250px"></img>
+    <img src={tech} width="350px"></img>
         </>
     );
 }
