@@ -1,6 +1,11 @@
 import "/src/App.css";
 import { ToastContainer, toast } from "react-toastify";
 
+/**
+ * 
+ * @returns 🔽⏬⬇️⤵️🔻
+ */
+
 function DownloadCV() {
   const notify = () => toast(<b>Downloading now...</b>);
   return (
@@ -13,9 +18,11 @@ style={{fontSize:"16px",textDecoration: "none"}}
   className="downloadCVButton"
   onClick={notify}
 >
-  Download my latest CV ({new Date().getFullYear()})
+  Download my latest CV ({new Date().getFullYear()}) ⏬
   
-</a><br></br>
+</a> <br></br><br></br>
+<a href="#" className="downloadCVButton" style={{fontSize:"16px",textDecoration: "none"}}>📞 Contact Me</a>
+<br></br>
       <br></br><br></br><hr></hr><br></br>
       
       <ToastContainer />

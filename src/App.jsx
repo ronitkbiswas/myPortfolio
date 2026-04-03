@@ -15,8 +15,8 @@ function App() {
 <Photo /><br></br>
 <Intro />
 <DownloadCV /> 
-<AboutMe /><br></br><br></br><hr></hr>
 
+<AboutMe /><br></br><br></br><hr></hr>
 <TechStack /><br></br><br></br><hr></hr><br></br>
 <Projects /><br></br><hr></hr>
 <Workstation /><hr></hr><br></br>

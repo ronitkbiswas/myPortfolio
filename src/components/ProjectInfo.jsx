@@ -9,16 +9,13 @@ export default function Projects() {
       <h2>✨ My Projects</h2>
 <br></br>
       <div className="project-card">
-        <h3>WeatherApp ☁️</h3>
-
-        <p>
-          An API-based weather app that sets the vibe according to
-          real-time weather around you!
-        </p>
+        <h2>WeatherApp ☁️</h2>
+<span> An API-based weather app that sets the vibe according to
+          real-time weather around you !</span>
 
         <a href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">
          <br></br>
-      <img width="130px" src={mainImg} />   
+      <img width="125px" src={mainImg} />   
       <img width="150px" src={sikkimImg} alt="weather app"/>
       {/* <img width="150px" src={lahoreImg} alt="weather app" /> */}
       <img width="150px" src={ranaghatImg} alt="weather app"/>
@@ -30,7 +27,7 @@ export default function Projects() {
     {/* <div style="display: inline">a</div>
     <div style="display: inline">b</div>
     <div style="display: inline">c</div>  */}
- 
+  
         <a
           className="live-link"
           href="https://ronitkbiswas.github.io/weatherApp/"
@@ -40,6 +37,7 @@ export default function Projects() {
             <br></br><br></br>
           View it Live →
         </a>
+       
       </div>
     </div>
   );
