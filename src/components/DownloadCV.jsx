@@ -24,7 +24,7 @@ style={{fontSize:"16px",textDecoration: "none"}}
 <a href="tel:+919804727175" className="downloadCVButton" style={{fontSize:"16px",textDecoration: "none"}}>📞 Contact Me</a>
 <br></br>
 
-<a target="_blank" href="https://api.whatsapp.com/send?phone=9804727175">
+<a target="_blank" href="https://api.whatsapp.com/send?phone=+919804727175">
 <img style={{paddingTop: "10px", paddingBottom: "5px"}} src={whatsAppicon} width="40px" />
  </a>
        <br></br><hr></hr><br></br>
