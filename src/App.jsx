@@ -4,29 +4,10 @@ import SocialLinks from "./components/SocialLinks";
 import TechStack from "./components/TechStack";
 import Workstation from "./sections/Workstation";
 import AboutMe from "./sections/About";
-
-function App() {
-  return (
-<div
-        className="main"
-        style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}
-      >
-         
-<Photo />
-        
-        <br></br>
-<span style={{fontSize: "27px", fontWeight: "normal"}}>Hi! I'm <span style={{fontWeight: "bold"}}>Ronit Kumar Biswas 👋🏻</span></span>
-        <br></br>
-        <span style={{fontWeight: "normal", fontSize: "17px"}}>Frontend 
-          Developer (React JS) from Kolkata, India 🇮🇳<br></br></span>
-
-<DownloadCV /> 
-<AboutMe />
-<br></br><br></br><hr></hr>
-<TechStack />
-<br></br><br></br> <hr></hr>
-<br></br>
-          <span style={{ fontSize: "25px", fontWeight: "bold" }}>✨ My Projects</span>
+import Projects from "./components/ProjectInfo";
+/**
+ * 
+ *  <span style={{ fontSize: "25px", fontWeight: "bold" }}>✨ My Projects</span>
           <br></br><br></br>
           <div style={{backgroundColor: ""}}>
             <br></br>
@@ -51,12 +32,36 @@ function App() {
            href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">View it Live...</a>
           <br></br>
           <br></br>
+ */
+
+function App() {
+  return (
+<div 
+        style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}
+      >
+         
+<Photo />
+        
+        <br></br>
+<span style={{fontSize: "27px", fontWeight: "normal"}}>Hi! I'm <span style={{fontWeight: "bold"}}>Ronit Kumar Biswas 👋🏻</span></span>
+        <br></br>
+        <span style={{fontWeight: "normal", fontSize: "17px"}}>Frontend 
+          Developer (React JS) from Kolkata, India 🇮🇳<br></br></span>
+
+<DownloadCV /> 
+<AboutMe />
+<br></br><br></br><hr></hr>
+<TechStack />
+<br></br><br></br> <hr></hr>
+<br></br>
+ 
+ <Projects />
           
 <br></br><hr></hr>
 <Workstation />
 <hr></hr><br></br>
 <SocialLinks /><br></br><br></br>
-</div>
+ 
       <footer style={{ textAlign: "center" }}>
         <span>© {new Date().getFullYear()} All rights reserved. 🔒</span>
         <br></br>
