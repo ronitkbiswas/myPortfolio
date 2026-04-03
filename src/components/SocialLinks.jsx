@@ -1,5 +1,6 @@
 import linkedinIcon from "../assets/images/linkedin.png";
-
+import githubIcon from "../assets/images/github.jpg";
+import fbIcon from "../assets/images/facebook.png";
 function SocialLinks() {
   const fb = "https://facebook.com/ronitkbiswas";
   const github = "https://github.com/ronitkbiswas";
@@ -18,11 +19,11 @@ function SocialLinks() {
         </a>
         <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={github} target="_blank">
-          <img src="src/assets/images/github.jpg" alt="github link logo" width="61px" />
+          <img src={githubIcon} alt="github link logo" width="61px" />
         </a>
         <span style={{paddingLeft: "5px"}}>  </span> 
         <a href={fb} target="_blank">
-          <img src="src/assets/images/facebook.png" alt="fb link logo" width="30px" />
+          <img src={fbIcon} alt="fb link logo" width="30px" />
         </a>
       </div>
     </>
