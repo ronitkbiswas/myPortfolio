@@ -8,24 +8,27 @@ import AboutMe from "./sections/About";
 function App() {
   return (
     <div className="body">
-      <br></br>
-      <div className="main" style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}>
+       <br></br>
+      <div
+        className="main"
+        style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }}
+      >
         <div className="photo">
           <Photo />
         </div>
         <br></br>
-        <span style={{ fontSize: "27px", fontWeight: "normal" }}>
-          Hi! I'm <span style={{ fontWeight: "bold" }}>Ronit Kumar Biswas 👋🏻</span>
-        </span>
+<span style={{fontSize: "27px", fontWeight: "normal"}}>Hi! I'm <span style={{fontWeight: "bold"}}>Ronit Kumar Biswas 👋🏻</span></span>
         <br></br>
-        <span style={{ fontWeight: "normal", fontSize: "17px" }}>
-          Frontend Developer (React JS) from Kolkata, India 🇮🇳<br></br>
-        </span>
-        <DownloadCV />
+        <span style={{fontWeight: "normal", fontSize: "17px"}}>Frontend 
+          Developer (React JS) from Kolkata, India 🇮🇳<br></br></span>
+       <DownloadCV />
+       
+     
         <div>
+           
           <AboutMe />
           <br></br><br></br>
-        </div>
+        </div> 
         <div>
           <hr></hr>
           <TechStack />
@@ -38,29 +41,27 @@ function App() {
           <br></br><br></br>
           <div style={{backgroundColor: ""}}>
             <br></br>
-            <span style={{ fontSize: "22px", fontWeight: "bold" }}>WeatherApp ☁️</span>
-            <br></br>
-            <span style={{ fontFamily: "monospace" }}>
-              An API based weather app that sets the vive
-              <br></br>
-              according to the real time weather around you!
-            </span>
-            <br></br>
-            <br></br>
-            <a target="_blank" href="https://ronitkbiswas.github.io/weatherApp/">
-              <img src="src/assets/images/weatherApp.jpeg" alt="weatherapp project logo" width="200px" />
-            </a>
-            <br></br>
-            <br></br>
-            <a
-              style={{ fontSize: "18px", textDecoration: "none", color: "lightgreen", fontWeight: "bold" }}
-              href="https://ronitkbiswas.github.io/weatherApp/"
-              target="_blank"
-            >
-              View it Live...
-            </a>
-            <br></br>
-            <br></br>
+            
+          <span style={{fontSize: "22px", fontWeight: "bold"}}>WeatherApp ☁️</span>
+          <br></br>
+          <span style={{fontFamily: "monospace" }}>An API based weather app that sets the vive
+            <br></br>according to the real time weather around you!</span>
+          <br></br>
+          
+          <br></br>
+     <a target="_blank" href="https://ronitkbiswas.github.io/weatherApp/">   
+          <img
+            src="src/assets/images/weatherApp.jpeg"
+            alt="weatherapp project logo"
+            width="200px"
+          />
+          </a>  
+          <br></br>
+           <br></br>
+          <a style={{fontSize:"18px", textDecoration:"none", color:"lightgreen",fontWeight:"bold"}}
+           href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">View it Live...</a>
+          <br></br>
+          <br></br>
           </div>
           <br></br>
           <hr></hr>
