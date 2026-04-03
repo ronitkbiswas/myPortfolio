@@ -7,10 +7,7 @@ A personal portfolio website built using React to showcase my projects, skills, 
 ## 🚀 Live Demo
 
 👉 [View Portfolio](https://my-portfolio-virid-three-77.vercel.app/)
-
-<a href="https://my-portfolio-virid-three-77.vercel.app/" target="_blank">
-  👉 View Portfolio
-</a>
+ 
 ---
 
 ## 🛠️ Tech Stack
