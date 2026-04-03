@@ -1,3 +1,5 @@
+import linkedinIcon from "../assets/images/linkedin.png";
+
 function SocialLinks() {
   const fb = "https://facebook.com/ronitkbiswas";
   const github = "https://github.com/ronitkbiswas";
@@ -9,7 +11,7 @@ function SocialLinks() {
         <br></br><br></br>
         <a href={linkedin} target="_blank">
           <img
-            src="src/assets/images/linkedin.png"
+            src={linkedinIcon}
             alt="linkedin link logo"
             width="30px"
           />
