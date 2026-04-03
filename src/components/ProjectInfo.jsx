@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div className="projects">
       <h2>✨ My Projects</h2>
-
+<br></br>
       <div className="project-card">
         <h3>WeatherApp ☁️</h3>
 
@@ -22,6 +22,7 @@ export default function Projects() {
           className="live-link"
           href="https://ronitkbiswas.github.io/weatherApp/"
           target="_blank"
+          style={{textDecoration: "none", color:"lightgreen",fontWeight:"bold",fontSize:"17px"}}
         >
             <br></br><br></br>
           View it Live →
