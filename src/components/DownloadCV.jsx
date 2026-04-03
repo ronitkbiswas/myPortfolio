@@ -21,7 +21,7 @@ style={{fontSize:"16px",textDecoration: "none"}}
   Download my latest CV ({new Date().getFullYear()}) ⏬
   
 </a> <br></br><br></br>
-<a href="#" className="downloadCVButton" style={{fontSize:"16px",textDecoration: "none"}}>📞 Contact Me</a>
+<a href="tel:+919804727175" className="downloadCVButton" style={{fontSize:"16px",textDecoration: "none"}}>📞 Contact Me</a>
 <br></br>
       <br></br><br></br><hr></hr><br></br>
       
