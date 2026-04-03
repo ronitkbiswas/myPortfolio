@@ -1,5 +1,8 @@
-import weatherImg from "../assets/images/weatherApp.jpeg";
-
+import lahoreImg from "../assets/images/lahoreWeather.jpg";
+import ranaghatImg from "../assets/images/ranaghatWeather.jpg";
+import bangaloreImg from "../assets/images/bangaloreWeather.jpg";
+import sikkimImg from "../assets/images/sikkimWeather.jpg";
+import mainImg from "../assets/images/weatherApp.jpeg";
 export default function Projects() {
   return (
     <div className="projects">
@@ -15,9 +18,19 @@ export default function Projects() {
 
         <a href="https://ronitkbiswas.github.io/weatherApp/" target="_blank">
          <br></br>
-          <img width="200px" src={weatherImg} alt="weather app" />
+      <img width="130px" src={mainImg} />   
+      <img width="150px" src={sikkimImg} alt="weather app"/>
+      {/* <img width="150px" src={lahoreImg} alt="weather app" /> */}
+      <img width="150px" src={ranaghatImg} alt="weather app"/>
+      {/* <img width="150px" src={bangaloreImg} alt="weather app" /> */}
+      
         </a>
+ 
 
+    {/* <div style="display: inline">a</div>
+    <div style="display: inline">b</div>
+    <div style="display: inline">c</div>  */}
+ 
         <a
           className="live-link"
           href="https://ronitkbiswas.github.io/weatherApp/"
