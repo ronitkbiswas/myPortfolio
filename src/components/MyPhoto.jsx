@@ -1,16 +1,13 @@
 import myDP from "../assets/images/myDP.jpg";
+import "/src/App.css";
 
 function Photo() {
   return (
-    <img
-      src={myDP}
-      alt="my profile pic"
-      width="170"
-      style={{
-        borderRadius: "100px",
-        boxShadow: "1px 1px 10px white"
-      }}
-    />
+   <img
+  src={myDP}
+  alt="my profile pic"
+  className="profilePic"
+/>
   );
 }
 

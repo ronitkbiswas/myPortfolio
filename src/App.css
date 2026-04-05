@@ -194,3 +194,47 @@
     opacity: 0;
   }
 }
+
+
+.profilePic {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  /* neon glow */
+  box-shadow:
+    0 0 10px #00f7ff,
+    0 0 25px rgba(0, 247, 255, 0.7),
+    0 0 50px rgba(0, 247, 255, 0.4);
+
+  transition: all 0.3s ease;
+}
+
+/* hover = subtle zoom */
+.profilePic:hover {
+  transform: scale(1.05);
+}
+
+.aboutSection {
+  text-align: center;
+  padding: 20px 16px;
+  color: #ddd;
+}
+
+.aboutSection h2 {
+  margin-bottom: 16px;
+}
+
+.aboutSection p {
+  margin: 10px 0;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.aboutText {
+  font-family: monospace;
+  font-size: 14px;
+  color: #bbb;
+}
