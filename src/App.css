@@ -238,3 +238,58 @@
   font-size: 14px;
   color: #bbb;
 }
+
+.workstation {
+  text-align: center;
+  padding: 20px 16px;
+}
+
+.workstation h2 {
+  margin-bottom: 16px;
+}
+
+/* clean grid */
+.badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* consistent sizing */
+.badges img {
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+/* subtle hover */
+.badges img:hover {
+  transform: scale(1.08);
+}
+
+.hero {
+  text-align: center;
+  padding: 20px 16px;
+  color: #eee;
+}
+
+/* main heading */
+.hero h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+/* highlight your name */
+.name {
+  font-weight: 700;
+  color: #00f7ff;
+  text-shadow: 0 0 8px rgba(0, 247, 255, 0.6);
+}
+
+/* subtitle */
+.subtitle {
+  font-size: 15px;
+  color: #aaa;
+  letter-spacing: 0.3px;
+}
