@@ -334,7 +334,7 @@ ul li {
   background: rgb(0, 0, 0);
   border-radius: 4px;
   color: white;
-  transition: ease all 0.4s;
+  transition: ease all 0.1s;
 }
 
 .mobileNav_container {
