@@ -7,11 +7,16 @@ import AboutMe from "./sections/About";
 import Projects from "./components/ProjectInfo";
 import Intro from "./components/IntroLine";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import MobileNavbar from "./components/MobileNavbar";
 
 function App() {
   return (
-<div style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }} >
 
+
+<div style={{ fontSize: "15px", marginTop: "20px", textAlign: "center" }} >
+ <Navbar />
+<MobileNavbar />
 <Photo /><br></br>
 <Intro />
 <DownloadCV /> 
@@ -22,7 +27,7 @@ function App() {
 <Workstation /><hr></hr><br></br>
 <SocialLinks /><br></br><br></br>
  <Footer /><br></br>
- 
+
  </div>
 );
 }
