@@ -481,3 +481,47 @@ ul li {
   margin-bottom: 18px;
   letter-spacing: 0.3px;
 }
+.socialSection {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.socialSection h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #00ffc6, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.socialIcons a {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease;
+}
+
+.socialIcons a:hover {
+  transform: translateY(-5px) scale(1.1);
+  background: rgba(0,255,200,0.15);
+  box-shadow: 0 0 15px rgba(0,255,200,0.4);
+}
+
+.socialIcons img {
+  width: 22px;
+}
+
+/* Fix GitHub visibility */
+.githubIcon {
+  filter: invert(1);
+}
