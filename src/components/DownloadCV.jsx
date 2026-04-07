@@ -37,8 +37,7 @@ function DownloadCV() {
   className="whatsappFloat"
 >
   <img src={whatsAppicon} alt="WhatsApp" />
-</a>
-       <br></br><hr></hr><br></br>
+</a> 
       
       <ToastContainer />
     </>

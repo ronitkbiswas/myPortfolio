@@ -21,7 +21,7 @@ function App() {
 <Intro />
 <DownloadCV /> 
 
-<AboutMe /><br></br><br></br><hr></hr>
+<AboutMe />  
 <TechStack /><br></br><br></br><hr></hr><br></br>
 <Projects /><br></br><hr></hr>
 <Workstation /><hr></hr><br></br>

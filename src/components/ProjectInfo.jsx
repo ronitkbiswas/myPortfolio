@@ -29,7 +29,7 @@ export default function Projects() {
           style={styles.imageGallery}
         >
           {/* Smaller, consistent images */}
-          <img src={lahoreImg} alt="Lahore" style={styles.image} />
+          {/* <img src={lahoreImg} alt="Lahore" style={styles.image} /> */}
           <img src={sikkimImg} alt="Sikkim" style={styles.image} />
           <img src={ranaghatImg} alt="Ranaghat" style={styles.image} />
         </a>
@@ -128,10 +128,12 @@ const styles = {
     alignItems: "center",
   },
   sectionTitle: {
-    fontSize: "1.4rem",
-    color: "rgba(255, 255, 255, 0.7)",
+     fontSize: "1.8rem",
     marginBottom: "20px",
-    fontWeight: "400",
+    background: "linear-gradient(90deg, #00ffc6, #00bfff)",
+  webkitBackgroundClip: "text",
+  backgroundClip: "text",
+  webkitTextFillColor: "transparent"
   },
   card: {
     background: "rgba(255, 255, 255, 0.04)",
@@ -177,7 +179,7 @@ const styles = {
   // },
   button: {
   display: "inline-block",
-  padding: "5px 13px",
+  padding: "5px 10px",
   background: "linear-gradient(135deg, #00ffcc, #00bfff)",
   color: "#0f172a",
   fontWeight: "600",
