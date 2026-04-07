@@ -1,10 +1,12 @@
-import React from "react";
+import "/src/App.css";
 import lahoreImg from "../assets/images/lahoreWeather.jpg";
 import ranaghatImg from "../assets/images/ranaghatWeather.jpg";
 import sikkimImg from "../assets/images/sikkimWeather.jpg";
 import ecommImg from "../assets/images/ecommerceApp.jpeg";
-import "/src/App.css";
+import taskMIMG from "../assets/images/taskApp1.jpeg";
+import taskMIMG2 from "../assets/images/taskApp2.jpeg";
 
+// main app
 export default function Projects() {
   return (
     <div className="projects-container" style={styles.container}>
@@ -61,9 +63,9 @@ export default function Projects() {
           style={styles.imageGallery}
         >
           {/* Smaller, consistent images */}
-          <img src={lahoreImg} alt="Lahore" style={styles.image} />
-          <img src={sikkimImg} alt="Sikkim" style={styles.image} />
-          <img src={ranaghatImg} alt="Ranaghat" style={styles.image} />
+          <img src={taskMIMG} alt="task app image" style={styles.image} />
+          <img src={taskMIMG2} alt="task app image" style={styles.image} />
+          {/* <img src={ranaghatImg} alt="Ranaghat" style={styles.image} /> */}
         </a>
 
         <div style={styles.footer}>
@@ -155,22 +157,43 @@ const styles = {
     textDecoration: "none",
   },
   image: {
-    width: "110px", // Compact image size
-    height: "110px",
+    width: "150px", // Compact image size
+    height: "150px",
     objectFit: "cover",
     borderRadius: "10px",
     transition: "0.3s ease",
   },
   footer: { marginTop: "5px" },
+  // button: {
+  //   display: "inline-block",
+  //   padding: "8px 20px", // Smaller button
+  //   backgroundColor: "#90ee90",
+  //   color: "#111",
+  //   fontWeight: "600",
+  //   borderRadius: "30px",
+  //   textDecoration: "none",
+  //   fontSize: "0.9rem",
+  //   transition: "0.2s",
+  // },
   button: {
-    display: "inline-block",
-    padding: "8px 20px", // Smaller button
-    backgroundColor: "#90ee90",
-    color: "#111",
-    fontWeight: "600",
-    borderRadius: "30px",
-    textDecoration: "none",
-    fontSize: "0.9rem",
-    transition: "0.2s",
-  },
+  display: "inline-block",
+  padding: "5px 13px",
+  background: "linear-gradient(135deg, #00ffcc, #00bfff)",
+  color: "#0f172a",
+  fontWeight: "600",
+  borderRadius: "999px",
+  textDecoration: "none",
+  fontSize: "0.95rem",
+  letterSpacing: "0.5px",
+  boxShadow: "0 8px 20px rgba(0, 191, 255, 0.35)",
+  transition: "all 0.25s ease",
+  border: "none",
+  cursor: "pointer",
+},
+
+buttonHover: {
+  transform: "translateY(-2px) scale(1.03)",
+  boxShadow: "0 12px 28px rgba(0, 191, 255, 0.5)",
+  background: "linear-gradient(135deg, #00e6b8, #0099ff)",
+}
 };
