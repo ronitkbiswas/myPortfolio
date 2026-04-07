@@ -2,6 +2,7 @@ import React from "react";
 import lahoreImg from "../assets/images/lahoreWeather.jpg";
 import ranaghatImg from "../assets/images/ranaghatWeather.jpg";
 import sikkimImg from "../assets/images/sikkimWeather.jpg";
+import ecommImg from "../assets/images/ecommerceApp.jpeg";
 import "/src/App.css";
 
 export default function Projects() {
@@ -75,7 +76,43 @@ export default function Projects() {
             Live Demo →
           </a>
         </div>
+         </div>
+        {/** task manager ends here */}
+     
+       {/** e commerce starts here */}
+       <br></br>
+<div className="project-card" style={styles.card}>
+        <div style={styles.header}>
+          <h2 style={styles.title}>E Commerce App</h2>
+          <p style={styles.description}>
+            React eCommerce app 🛒 with product browsing 📦 & cart ⚡
+          </p>
+        </div>
+
+        <a
+          href="https://ecommerce-app-ronitkbiswas.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.imageGallery}
+        >
+          {/* Smaller, consistent images */}
+          <img src={ecommImg} alt="Lahore" width="250px" />
+          {/* <img src={sikkimImg} alt="Sikkim" style={styles.image} />
+          <img src={ranaghatImg} alt="Ranaghat" style={styles.image} /> */}
+        </a>
+
+        <div style={styles.footer}>
+          <a
+            href="https://ecommerce-app-ronitkbiswas.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.button}
+          >
+            Live Demo →
+          </a>
+        </div>
       </div>
+        {/** e commerce ends here */}
       {/** main div ends below div */}
     </div>
   );
