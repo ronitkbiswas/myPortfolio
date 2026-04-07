@@ -23,8 +23,8 @@ function App() {
 
 <AboutMe />  
 <TechStack /><br></br><br></br><hr></hr><br></br>
-<Projects /><br></br><hr></hr>
-<Workstation /><hr></hr><br></br>
+<Projects /> 
+<Workstation /> 
 <SocialLinks /><br></br><br></br>
  <Footer /><br></br>
 

@@ -264,15 +264,25 @@
   color: #00ffc6;
 }
 .workstation {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 255, 200, 0.08);
+  border: 1px solid rgba(0, 255, 200, 0.08);
   text-align: center;
-  padding: 20px 16px;
 }
 
 .workstation h2 {
-  margin-bottom: 16px;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, #00ffc6, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* clean grid */
 .badges {
   display: flex;
   justify-content: center;
@@ -280,17 +290,19 @@
   gap: 12px;
 }
 
-/* consistent sizing */
 .badges img {
   height: 28px;
-  transition: transform 0.2s ease;
+  border-radius: 6px;
+  transition: 0.25s ease;
+  filter: brightness(0.95);
 }
 
-/* subtle hover */
+/* Hover = life */
 .badges img:hover {
-  transform: scale(1.08);
+  transform: translateY(-4px) scale(1.05);
+  filter: brightness(1.2);
+  box-shadow: 0 0 12px rgba(0, 255, 200, 0.4);
 }
-
 .hero {
   text-align: center;
   padding: 20px 16px;
