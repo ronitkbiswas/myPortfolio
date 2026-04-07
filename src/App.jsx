@@ -22,10 +22,10 @@ function App() {
 <DownloadCV /> 
 
 <AboutMe />  
-<TechStack /><br></br><br></br><hr></hr><br></br>
+<TechStack /> 
 <Projects /> 
 <Workstation /> 
-<SocialLinks /><br></br><br></br>
+<SocialLinks /> 
  <Footer /><br></br>
 
  </div>
